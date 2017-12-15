@@ -1,0 +1,32 @@
+1	Start the game
+
+
+
+2	Deal the hands
+	Deal cards to player 1
+	deal cards to player 2
+
+
+3 Play the tricks
+	Player 1 selects their card to play
+		Card is played into the center facedown (Player 2 is blind)
+	Player 2 selects their card to play
+	Cards in play are flipped over revealing values
+	Player with the highest value card wins the trick
+		Point is asigned to the player's trick total
+Repeat this step until all hands are empty
+
+4) End of hand
+	assign a point to the player with the most tricks hand count
+		Reset trick points
+	Reset deck
+go to 2)
+
+2-If> If there are not 6 cards left in step 2
+		End the game
+		announce the player with the most hand points as the winner
+
+
+
+
+

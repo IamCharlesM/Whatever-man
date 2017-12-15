@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+}
+header{
+	width: 100vw;
+	height: 20vh;
+	background-color: red;
+	margin-bottom: 10px;
+}
+.article{
+	width: calc(100vw - 20vw - 10px);
+	height: calc(100vh - 20vh - 10px);
+	background-color: blue;
+	float: left;
+	margin-right: 10px;	
+}
+.side{
+	width: 20vw;
+	height: calc(100vh - 20vh - 10px);
+	background-color: green;
+	float: left;
+}
+header, .article, .side{
+	/*border-radius: 5%;*/
+	text-align: center;
+}
+
+@media (max-width: 680px) {
+	.article{
+		width: 100vw;
+		height: 60vw;
+		margin-bottom: 10px;
+	}
+	.side{
+		width: 100vw;
+		height: 20vh;
+	}
+}
